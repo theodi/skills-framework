@@ -66,17 +66,19 @@
 			  <div class="hex2 hexagon-wrapper even" id="column_5"><div class="hexagon"></div></div>
 			  <div class="hex2 hexagon-wrapper" id="column_6"><div class="hexagon"></div></div>
 			  <div class="hex2 hexagon-wrapper even" id="column_7"><div class="hexagon"></div></div>
-			<div id="hex_key">
-			  <div class="hex3 hexagon-wrapper even"><div class="hexagon key_hex Introductions"><h4>Introductions</h4></div></div>
-			  <div class="hex3 hexagon-wrapper even"><div class="hexagon key_hex Publishing"><h4>Publishing</h4></div></div>
-			  <div class="hex3 hexagon-wrapper even"><div class="hexagon key_hex Management"><h4>Management</h4></div></div>
+			<div id="row_6">
+			  <div class="hex3 hexagon-wrapper even" id="column_1"><div class="hexagon key_hex Introductions"><h4>Foundations</h4></div></div>
+			  <div class="hex3 hexagon-wrapper even" id="column_2"><div class="hexagon key_hex Publishing"><h4>Management</h4></div></div>
+			  <div class="hex3 hexagon-wrapper even" id="column_3"><div class="hexagon key_hex Management"><h4>Governance</h4></div></div>
 			  <!--<div class="hex3 hexagon-wrapper even"><div class="hexagon key_hex analysis"><h4>Storytelling</h4></div></div>-->
-			  <div class="hex3 hexagon-wrapper even"><div class="hexagon key_hex Business"><h4>Business</h4></div></div>
-			  <div class="hex3 hexagon-wrapper even"><div class="hexagon key_hex Analysis"><h4>Analysis</h4></div></div>
-			  <div class="hex3 hexagon-wrapper even"><div class="hexagon key_hex Leadership"><h4>Leadership</h4></div></div>
+			  <div class="hex3 hexagon-wrapper even" id="column_4"><div class="hexagon key_hex Business"><h4>Business</h4></div></div>
+			  <div class="hex3 hexagon-wrapper even" id="column_5"><div class="hexagon key_hex Analysis"><h4>Analysis</h4></div></div>
+			  <div class="hex3 hexagon-wrapper even" id="column_6"><div class="hexagon key_hex Leadership"><h4>Leadership</h4></div></div>
 			</div>
 		</div>
 	</div>
 </div>
+<button id="next" onclick="repopulateFramework(parseInt($('#currentFramework').val()) + 1);">Next</button>
+<input type="text" id="currentFramework" style="display: block;"></input>
 </body>
 </html>
